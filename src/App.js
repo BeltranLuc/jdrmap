@@ -128,7 +128,7 @@ function App() {
       <canvas
         ref={canvasRef}
         width={window.innerWidth}
-        height={window.innerHeight - 100}
+        height={window.innerHeight}
         onMouseUp={drawCanvas}
       />
       <div>
